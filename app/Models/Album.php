@@ -11,7 +11,7 @@ class Album extends Model
 
 
 
-    public function Artist()
+    public function artist()
     {
         return $this->belongsTo(Artist::class);
     }
